@@ -47,3 +47,28 @@ Package: `com.sinatools.offlinespeechtotext` · Version: **1.0.0** · Target SDK
 [Privacy / حریم خصوصی](PRIVACY.md)
 
 This repository distributes the signed APK and user-facing artwork and guides. Private recordings, models, backups, source and signing credentials are not uploaded.
+
+<!-- STORE-GALLERY -->
+
+## Screenshots | تصاویر برنامه
+
+App screens in English and Persian; sample content is used where needed.
+
+### English
+
+<img src="screenshots/en/01-settings-light.png" width="240" alt="Offline Speech to Text en 01-settings-light" />
+<img src="screenshots/en/02-settings-dark.png" width="240" alt="Offline Speech to Text en 02-settings-dark" />
+<img src="screenshots/en/03-models.png" width="240" alt="Offline Speech to Text en 03-models" />
+<img src="screenshots/en/04-device.png" width="240" alt="Offline Speech to Text en 04-device" />
+<img src="screenshots/en/05-transcribe.png" width="240" alt="Offline Speech to Text en 05-transcribe" />
+<img src="screenshots/en/06-public-sample-result.png" width="240" alt="Offline Speech to Text en 06-public-sample-result" />
+
+### فارسی
+
+<img src="screenshots/fa/01-settings-light.png" width="240" alt="Offline Speech to Text fa 01-settings-light" />
+<img src="screenshots/fa/02-settings-dark.png" width="240" alt="Offline Speech to Text fa 02-settings-dark" />
+<img src="screenshots/fa/03-models.png" width="240" alt="Offline Speech to Text fa 03-models" />
+<img src="screenshots/fa/04-device.png" width="240" alt="Offline Speech to Text fa 04-device" />
+<img src="screenshots/fa/05-transcribe.png" width="240" alt="Offline Speech to Text fa 05-transcribe" />
+<img src="screenshots/fa/06-public-sample-result.png" width="240" alt="Offline Speech to Text fa 06-public-sample-result" />
+
