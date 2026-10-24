@@ -6,69 +6,30 @@
 
 ## فارسی
 
-گفتار به متن آفلاین، صدای ضبط‌شده یا فایل صوتی را با مدل Whisper روی خود گوشی به متن تبدیل می‌کند. پس از دریافت یک مدل، برای تبدیل گفتار به اتصال اینترنت نیاز ندارید و صدا برای پردازش به سرور ارسال نمی‌شود.
+تبدیل گفتار ضبط‌شده و فایل صوتی به متن روی گوشی با مدل Whisper.
 
-امکانات:
-• ضبط صدا و تبدیل فایل‌های صوتی سازگار، مانند WAV، MP3 و M4A
-• انتخاب زبان گفتار فارسی، انگلیسی یا تشخیص خودکار
-• سه مدل Tiny، Base و Small با تفاوت در حجم، سرعت و دقت
-• کپی، اشتراک‌گذاری و ذخیره متن خروجی
-• رابط فارسی و انگلیسی و پوسته روشن، تیره یا مطابق گوشی
-• بررسی سلامت فایل مدل پس از دریافت
+اندروید ۱۰ به بالا و پردازنده ARM با معماری ۶۴بیتی لازم است. از بخش مدل‌ها یک مدل دریافت کنید، زبان گفتار را انتخاب و سپس صدا ضبط یا فایل وارد کنید. هر فایل یا ضبط حداکثر پنج دقیقه است. متن را پیش از استفاده بازبینی کنید.
 
-نیازمندی‌ها: اندروید ۱۰ یا بالاتر و پردازنده ۶۴بیتی ARM. مدل‌ها جدا از برنامه و با اینترنت دریافت می‌شوند و تقریباً ۷۸، ۱۴۸ یا ۴۸۸ مگابایت فضا می‌گیرند. مدت هر ضبط یا فایل ورودی حداکثر ۵ دقیقه است. سرعت و دقت به مدل، قدرت گوشی، زبان و کیفیت صدا بستگی دارند. متن خروجی را پیش از استفاده بازبینی کنید.
+### تبلیغات
 
-این نسخه تبلیغات و پرداخت درون‌برنامه‌ای ندارد.
+بنر استاندارد در تنظیمات و اطلاعات دستگاه؛ بینابینی محدود پس از ذخیرهٔ موفق متن و خروج از بخش تبدیل. ضبط و تبدیل صدا بدون نمایش تبلیغ انجام می‌شوند.
+
+نمایش تبلیغ به اینترنت و موجودی شبکهٔ تبلیغات بستگی دارد. امکانات اصلی به دریافت تبلیغ وابسته نیستند. تبلیغ بینابینی هنگام شروع برنامه نمایش داده نمی‌شود و تعداد نمایش آن محدود است.
 
 ## English
 
-Offline Speech to Text transcribes recordings and supported audio files directly on your phone with Whisper. Download a model once, then transcribe without an internet connection. Audio is not uploaded to a transcription server.
+Transcribe recordings and audio files locally on your phone with Whisper.
 
-Features:
-• Record speech or import compatible WAV, MP3 and M4A audio
-• Persian, English or automatic speech-language detection
-• Tiny, Base and Small models with different speed, storage and accuracy trade-offs
-• Copy, share and save transcript text
-• English and Persian interfaces with light, dark and device-based themes
-• Model-file integrity checks
+Requires Android 10+ and a 64-bit ARM processor. Download a model from Models, choose the speech language, then record or import audio. Each input is limited to five minutes. Review the generated transcript before use.
 
-Requires Android 10 or later and a 64-bit ARM processor. Models are downloaded separately using the internet and take approximately 78, 148 or 488 MB. Each recording or imported file can be up to 5 minutes. Speed and recognition accuracy depend on the model, phone, language and audio quality. Review generated text before using it.
+### Advertising
 
-This version has no advertising or in-app purchases.
+Standard banner in Settings and Device information; a capped interstitial after a successful text export when leaving Transcribe. No ads during recording or transcription.
 
-## Getting started | شروع کار
+Advertising requires an internet connection and available inventory. Core features do not depend on an ad being available. Interstitials are not shown on launch and are frequency-capped.
 
-Open Models and download one model. Tiny uses the least memory. Set Speech language separately from App language in Settings, then record or choose audio from Transcribe. Copy, share or export the result. Download models before going offline.
+Package: `com.sinatools.offlinespeechtotext` · Version: **1.0.1** · Minimum Android API: **29** · Target SDK: **36**.
 
-از بخش مدل‌ها یک مدل دریافت کنید؛ Tiny حافظه کمتری مصرف می‌کند. زبان گفتار را جدا از زبان برنامه در تنظیمات انتخاب کنید. سپس در بخش تبدیل، صدا ضبط یا فایل انتخاب کنید. نتیجه را می‌توانید کپی، ذخیره یا اشتراک‌گذاری کنید.
+See [Privacy / حریم خصوصی](PRIVACY.md). Release APKs are signed with the publisher’s release certificate; private signing keys are not included in this repository.
 
-Package: `com.sinatools.offlinespeechtotext` · Version: **1.0.0** · Target SDK: **36**.
-
-[Privacy / حریم خصوصی](PRIVACY.md)
-
-This repository distributes the signed APK and user-facing artwork and guides. Private recordings, models, backups, source and signing credentials are not uploaded.
-
-<!-- STORE-GALLERY -->
-
-## Screenshots | تصاویر برنامه
-
-App screens in English and Persian; sample content is used where needed.
-
-### English
-
-<img src="screenshots/en/01-settings-light.png" width="240" alt="Offline Speech to Text en 01-settings-light" />
-<img src="screenshots/en/02-settings-dark.png" width="240" alt="Offline Speech to Text en 02-settings-dark" />
-<img src="screenshots/en/03-models.png" width="240" alt="Offline Speech to Text en 03-models" />
-<img src="screenshots/en/04-device.png" width="240" alt="Offline Speech to Text en 04-device" />
-<img src="screenshots/en/05-transcribe.png" width="240" alt="Offline Speech to Text en 05-transcribe" />
-<img src="screenshots/en/06-public-sample-result.png" width="240" alt="Offline Speech to Text en 06-public-sample-result" />
-
-### فارسی
-
-<img src="screenshots/fa/01-settings-light.png" width="240" alt="Offline Speech to Text fa 01-settings-light" />
-<img src="screenshots/fa/02-settings-dark.png" width="240" alt="Offline Speech to Text fa 02-settings-dark" />
-<img src="screenshots/fa/03-models.png" width="240" alt="Offline Speech to Text fa 03-models" />
-<img src="screenshots/fa/04-device.png" width="240" alt="Offline Speech to Text fa 04-device" />
-<img src="screenshots/fa/05-transcribe.png" width="240" alt="Offline Speech to Text fa 05-transcribe" />
-<img src="screenshots/fa/06-public-sample-result.png" width="240" alt="Offline Speech to Text fa 06-public-sample-result" />
-
+The speech engine uses [whisper.cpp](https://github.com/ggml-org/whisper.cpp). Models are downloaded separately; recognition speed and accuracy depend on the model, device, language and recording quality.
