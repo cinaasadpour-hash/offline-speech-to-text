@@ -1,13 +1,13 @@
 # Privacy | حریم خصوصی
 
-Audio recording, file decoding and speech recognition run locally on the device. This version contains no advertising SDK or analytics SDK and does not send audio or transcripts to us.
+This version integrates Tapsell advertising. The advertising SDK may process device, network and advertising identifiers, where available, to deliver and measure ads. The app does not pass your task contents, files, recordings or transcripts to the advertising SDK. Ad requests need internet access; the app’s core local functionality can work without advertising.
 
-Model downloads contact Hugging Face, which hosts the open-source Whisper model files. The hosting service can receive ordinary connection information such as the IP address during a download. An internet connection is not needed for transcription after a model is available.
+این نسخه از تبلیغات تپسل استفاده می‌کند. کتابخانهٔ تبلیغات ممکن است اطلاعات دستگاه، شبکه و شناسهٔ تبلیغاتیِ در دسترس را برای ارائه و سنجش تبلیغ پردازش کند. برنامه محتوای کارها، فایل‌ها، صدا یا متن شما را به کتابخانهٔ تبلیغات ارسال نمی‌کند. درخواست تبلیغ به اینترنت نیاز دارد؛ قابلیت‌های اصلی محلی به دریافت تبلیغ وابسته نیستند.
 
-Microphone access is used only when recording. Imported audio is selected using Android's file picker. Downloaded models and settings remain in app storage. Transcripts are held in the current session until you explicitly copy, share or export them. Android and apps you choose when sharing handle exported data under their own policies. Removing the app removes its private models and settings.
+Files are accessed through Android’s user-selected pickers where applicable. Exporting or sharing is performed only through the actions you choose. Data sent to a destination you select is handled under that destination’s own policies.
 
-ضبط صدا، خواندن فایل و تبدیل گفتار روی خود دستگاه انجام می‌شود. این نسخه ابزار تبلیغات یا تحلیل رفتار ندارد و صدا یا متن را برای ما ارسال نمی‌کند.
+دسترسی به فایل‌ها در بخش‌های مربوط از انتخابگر اندروید و با انتخاب شما انجام می‌شود. خروجی و اشتراک‌گذاری با اقدام شما صورت می‌گیرد و دادهٔ ارسال‌شده به مقصد انتخابی تابع سیاست آن مقصد است.
 
-برای دریافت مدل به میزبان Hugging Face متصل می‌شود؛ این میزبان هنگام دانلود می‌تواند اطلاعات عادی اتصال مانند نشانی IP را دریافت کند. پس از دریافت مدل، تبدیل به اینترنت نیاز ندارد.
+Recording, decoding and speech recognition run locally. Microphone permission is used for recording. Model downloads contact Hugging Face, whose servers can receive ordinary connection information such as the IP address. Models and settings are stored locally. Transcripts remain in the session until you copy, export or share them.
 
-دسترسی میکروفون فقط برای ضبط استفاده می‌شود. فایل ورودی را از انتخابگر اندروید برمی‌گزینید. مدل‌ها و تنظیمات در حافظه برنامه می‌مانند. متن در نشست فعلی نگهداری می‌شود و تنها با انتخاب شما کپی، اشتراک‌گذاری یا ذخیره خواهد شد. اطلاعات صادرشده تابع رفتار اندروید و برنامهٔ مقصد است. حذف برنامه، مدل‌ها و تنظیمات خصوصی آن را پاک می‌کند.
+ضبط، خواندن صوت و تبدیل گفتار روی دستگاه انجام می‌شود. مجوز میکروفون برای ضبط استفاده می‌شود. دانلود مدل به Hugging Face متصل می‌شود و میزبان می‌تواند اطلاعات معمول اتصال مانند IP را دریافت کند. مدل و تنظیمات محلی هستند و متن با انتخاب شما کپی، ذخیره یا به اشتراک گذاشته می‌شود.
