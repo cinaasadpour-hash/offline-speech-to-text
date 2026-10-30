@@ -1,0 +1,1 @@
+Transcribe recordings and audio files locally with Whisper models.

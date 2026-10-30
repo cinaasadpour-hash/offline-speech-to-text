@@ -1,0 +1,15 @@
+{
+  "package": "com.sinatools.offlinespeechtotext",
+  "versionName": "1.0.1",
+  "versionCode": 3,
+  "sha256": "f979100ee256205a06dd29286ae5f28d3863d6f9aed82b3de3ca23577952f045",
+  "certificateSha256": "5dfae720f4e370b6f7304b67d1387b2a9ae970e49e04cad5082aac8092e08f7e",
+  "containsAds": true,
+  "adTypes": [
+    "standard",
+    "interstitial"
+  ],
+  "experimental": false,
+  "storeAccuracyHold": false,
+  "verifiedDate": "2026-10-30"
+}

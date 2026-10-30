@@ -1,0 +1,5 @@
+Offline Speech to Text converts recordings and audio files into text on your device using Whisper. Download a model from Models, choose the speech language, then record audio or import a file. Review the transcript and save or share it when you choose.
+
+After a model is downloaded, transcription does not require uploading audio to a server. The initial model download requires internet access. Each recording or imported file is limited to five minutes.
+
+Persian and English interfaces and light and dark themes are available. Requires Android 10 or later and a 64-bit ARM processor. Speed and accuracy depend on the model, device, language and audio quality. Review generated text before relying on it.
